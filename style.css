@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+h1{
+margin: 0;
+-webkit-text-stroke-width: 2px; /* largura da borda */
+-webkit-text-stroke-color: #000000; /* cor da borda */
+}
+
+header{
+    background-color: rgb(108, 46, 158);
+    display: flex;
+    justify-content: space-between; /*so funcionadknjdkajd*/
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background:rgb(39, 4, 136);
+    background: linear-gradient(90deg, rgb(10, 4, 26)0%, rgb(126, 64, 219)18%, rgb(115, 79, 168)100%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke-color: #000;
+}
+
+#box-categorias button{
+    background-color: rgb(214, 115, 23);
+    border: 0;
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px black;
+}
+
+#box-ordenar button{
+    background-color: rgb(28, 163, 28);
+    border: 0;
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 40px black;
+    }
